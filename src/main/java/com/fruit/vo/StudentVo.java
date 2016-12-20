@@ -1,10 +1,10 @@
-package com.fruit.dto;
+package com.fruit.vo;
 
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.hateoas.ResourceSupport;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -12,7 +12,7 @@ import java.util.Date;
  */
 @Getter
 @Setter
-public class StudentDto implements Serializable {
+public class StudentVo extends ResourceSupport {
     private String nick;
     private String realName;
     private String photo;
