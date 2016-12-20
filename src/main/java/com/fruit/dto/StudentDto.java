@@ -13,17 +13,26 @@ import java.util.Date;
 @Getter
 @Setter
 public class StudentDto extends ResourceSupport {
-    private String username;
+    private String nick;
     private String realName;
+    private String photo;
     private int age;
     private String gender;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthday;
     private String cellphone;
+    private String email;
+    private String weChat;
+    private String weiBo;
+    private String qq;
     private String province;
     private String city;
     private String district;
     private String address;
     private String school;
     private String grade;
+
+    // 账户信息
+    private String username;
+    private String password;
 }
