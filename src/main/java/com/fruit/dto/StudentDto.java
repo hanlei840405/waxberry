@@ -13,6 +13,7 @@ import java.util.Date;
 @Getter
 @Setter
 public class StudentDto implements Serializable {
+    private static final long serialVersionUID = -1753866839710890272L;
     private String nick;
     private String realName;
     private String photo;
