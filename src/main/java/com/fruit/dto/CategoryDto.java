@@ -20,8 +20,8 @@ public class CategoryDto implements Serializable {
     private String imgUrl;
     private Long sequence;
 
-    // 上级导航属性
-    private Long categoryId;
+    // 上级类目属性
+    private String categoryCode;
     private CategoryDto category;
     private List<CategoryDto> elements = new ArrayList<>();
 }
